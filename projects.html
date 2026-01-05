@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harishan's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<!-- MOBILE MENU -->
+<header>
+    <div class="mobile-menu-wrapper">
+        <div class="menu-header">
+            <div class="username">@projects</div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+
+        <div class="nav-menu" id="navMenu">
+            <a href="index.html" class="navIcon">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="aboutme.html">
+                <i class="fa-solid fa-file"></i>
+                <span>About Me</span>
+            </a>
+
+            <a href="projects.html">
+                <i class="fa-solid fa-file"></i>
+                <span>Projects</span>
+            </a>
+
+            <a href="experience.html">
+                <i class="fa-solid fa-file"></i>
+                <span>Experience</span>
+            </a>
+
+           
+           
+        </div>
+    </div>
+
+    <!-- TOP HEADER (Desktop Navigation) -->
+    <div class="header">
+        <div id="top-header">
+            <nav class="navbar">
+                <div class="logo"></div>
+                <ul class="nav-menu">
+                  
+                    <li><a href="#section0">About Me</a></li>
+                    <li><a href="#section12">Projects</a></li>
+                    <li><a href="#Third">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<script>
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('show');
+}
+
+function closeMenu() {
+    document.querySelector('.nav-menu').classList.remove('show');
+}
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+});
+</script>
+
+
+
+<div class="ProjectsPage">
+
+
+    <!-- Tabs -->
+     <!-- 
+    <div class="project-tabs">
+        <button class="tab active">All Projects</button>
+        <button class="tab">Completed</button>
+        <button class="tab">Working On</button>
+    </div>
+
+-->
+
+    <!-- Projects Container -->
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Personal Finance Tracker</h3>
+            <p>React, Node.JS, MongoDB, JavaScript, HTML, CSS</p>
+
+            <img src="images/tracker.png"
+                    alt="Personal Finance Tracker preview"
+                    class="project-image">
+
+            <span class="project-status">Working On</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Soccer Video Analyzer</h3>
+            <p>Python, C, YOLOv5, OpenCV, React</p>
+            <span class="project-status">Working On</span>
+        </div>
+
+
+        <div class="project-card">
+            <h3>Stadium Tracker Using GIS</h3>
+            <p>Python & ArcGIS</p>
+            <span class="project-status">Working On/span>
+        </div>
+
+        <div class="project-card">
+            <h3>VC Parser</h3>
+            <p>C, Python, SQL, MariaDB, Makefile, Docker</p>
+            <img src="images/vcp.png"
+                    alt="Personal Finance Tracker preview"
+                    class="project-image">
+            <span class="project-status">Completed</span>
+     
+        </div>
+
+        <div class="project-card">
+            <h3>cMLS</h3>
+            <p>JavaScript, HTML, CSS, GitHub</p>
+            <img src="images/cmlsNew.png"
+                    alt="Personal Finance Tracker preview"
+                    class="project-image">
+            <span class="project-status">Completed</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Alka's Jewellery</h3>
+            <p>JavaScript, HTML, CSS, GitHub</p>
+            <img src="images/alk1.png"
+                    alt="Personal Finance Tracker preview"
+                    class="project-image">
+            <span class="project-status">Completed</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal AI Chatbot</h3>
+            <p>React, HTML, CSS, Gemini API</p>
+            <img src="images/chatbbot1.png"
+                    alt="Personal Finance Tracker preview"
+                    class="project-image">
+            <span class="project-status">Completed</span>
+        </div>
+
+
+        <div class="project-card">
+            <h3>Old Personal Portflio</h3>
+            <p>Python & ArcGIS</p>
+            <span class="project-status">Completed</span>
+        </div>
+
+    </div>
+</div>
+

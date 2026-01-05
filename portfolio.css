@@ -1,0 +1,1102 @@
+@media screen and (max-width: 767px){
+
+    body{
+      background-color:  #f0fbff;
+      background-size: 100% auto;
+      background-attachment: fixed;
+      overflow: auto;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      box-sizing: border-box;
+   
+     
+    }
+
+   
+  
+  
+    .image1{
+      width: 300px;
+      height: 200px;
+      overflow-x: hidden;
+    }
+  
+    .startText h4{
+      text-align: center;
+      margin-top: 60px;
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      margin-left: 90px;
+      margin-right: 90px;
+      font-weight: normal;
+    }
+  
+    .footer-contact2{
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    #typewriter{
+      font-size: 45px;
+      font-weight: 500;
+    }
+  
+    .footer-contactStart{
+      display: none;
+    }
+  
+    /* HEADER */
+  
+    .mobile-menu-wrapper {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      /*changing this from fixed to relatvie made the header and title not colldie*/
+      position: relative;
+      
+      top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #acdcee;
+    padding: 10px 40px;
+
+    border-radius: 25px;   /* smoother curve */
+    
+    width: max-content;    /* ONLY as wide as content */
+    max-width: 90vw;       /* never too large on small screens */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 1000;
+    }
+  
+    .menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      color: #acdcee;
+      min-width: 250px;
+    }
+  
+    .username {
+      color: black;
+    }
+  
+    .menu-icon {
+      font-size: 30px;
+      cursor: pointer;
+      color: black;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #acdcee;
+      padding: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      z-index: 999;
+      width: 290px;
+      text-align: left;
+    }
+  
+    .nav-menu a {
+      padding: 12px 20px;
+      color: #000;
+      text-decoration: none;
+      display: block;
+      font-weight: 400;
+    }
+  
+    .nav-menu a.sub-item {
+      padding-left: 50px;
+      font-size: 0.95em;
+      color: #000;
+    }
+  
+    .nav-menu a:hover {
+      background-color: #f0f0f0;
+      color: #4f8ef7;
+    }
+  
+    .nav-menu.show {
+      display: flex;
+    }
+  
+    .navIcon{
+      display: inline-flex;
+      align-items: center;
+      gap: 6000px;
+      text-decoration: none;
+      color: inherit;
+      font-size: 16px;
+    }
+  
+    .content{
+      padding: 16px;
+    }
+  
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%
+    }
+  
+    .sticky + .content {
+      padding-top: 102px;
+    }
+  
+    nav ul{
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: left;
+      list-style-type: none;
+      margin-top: -12px;
+    }
+  
+    nav ul li{
+      margin: 10px 0;
+      margin-left: 20px;
+    }
+  
+    nav ul li a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+  
+    .menu-button {
+      width: 30px;
+      height: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 1000;
+      background-color: transparent;
+    }
+  
+    .menuButton {
+      background-color: #000;
+      border-radius: 2px;
+      height: 4px;
+      width: 100%;
+    }
+  
+    .HeaderBlock2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 0vh;
+    }
+  
+    .HeaderBlock2 h1{
+      font-size: 20px;
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      margin-top: -200px;
+    }
+  
+    #section1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+      text-align: center;
+      overflow-x: hidden;
+    }
+  
+    #section1 h1{
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      font-size: 38px;
+      margin-top: -10px;
+    }
+  
+    .me1{
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      font-size: 13px;
+    }
+  
+    .highlight {
+      font-size: 19px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s ease-in, transform 1s ease-in;
+    }
+  
+    .highlight.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+   
+  
+    
+  
+    .profile-pic5{
+      display: block;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%; 
+      margin: 0 auto;
+      margin-top: -170px;
+      border: 3px solid #acdcee;
+    }
+  
+    
+    .contactMe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+      gap: 20px;
+    }
+  
+    .linkedin-button {
+      background-color: #acdcee; 
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .linkedin-button:hover {
+      background-color: gray;
+    }
+  
+    #section0{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+  
+    #section0 h1{
+      font-size: 30px;
+    }
+
+
+    .aboutMeComputer{
+        display: none;
+      }
+
+
+    .aboutMePhone {
+        padding: 20px; /* Reduce padding for smaller screens */
+        margin: 0 8px; /* Prevent text from touching edges */
+      
+      
+        text-align: justify;
+      
+        margin-top: -110px;
+      
+      
+      }
+      
+      .text1Phone{
+        display: block;
+        font-size: 15px; 
+        text-align: justify;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+        padding: 35px;
+        margin-top: 100px;
+      }
+      
+      .text1Phone p{
+      
+        margin-bottom: 1px; /* Slightly reduce space between paragraphs */
+      
+        text-align: justify !important;
+      
+      }
+
+
+    
+
+    .EducationPhone {
+        padding: 30px 10%;
+        text-align: center;
+    }
+    
+    /* Container spacing */
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    /* Card */
+    .education-card {
+        background-color: #ffffff; /* cleaner than gray */
+        padding: 22px 24px;
+        border-radius: 16px; /* softer corners */
+        box-shadow:
+            0 4px 10px rgba(0, 0, 0, 0.08),
+            0 1px 3px rgba(0, 0, 0, 0.05);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        text-align: center;
+        border: 2px solid black; /* visual accent */
+    }
+    
+  
+    
+    /* School name */
+    .education-card h3 {
+        margin: 0 0 6px 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    /* Degree / details */
+    .education-card p {
+        margin: 0 0 6px 0;
+        font-size: 15px;
+        font-weight: 400; /* 100 is too light for readability */
+        color: #444;
+    }
+    
+    /* Date */
+    .edu-date {
+        font-size: 14px;
+        color: #777;
+        font-style: italic;
+    }
+    
+    
+
+
+
+
+
+
+    /*skills section phone*/
+
+    .SkillsPhone {
+        padding: 30px 60px;
+        text-align: center;
+    }
+
+
+    .skills-section {
+        margin-bottom: 50px; /* space between sections */
+    }
+    
+    
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px; /* space between skills */
+        margin-top: 15px;
+    }
+    
+    .skill {
+        background-color: white;
+        padding: 8px 14px;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: all 0.2s;
+        font-size: 14px;
+    }
+    
+    .skill:hover {
+        background-color: black;
+        color: white;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+
+
+
+    /*===========================================Experince*/
+
+    .Experience {
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+        padding: 20px 10%;
+        text-align: center;
+    }
+    
+    .experience-cards {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 15px;
+
+    }
+    
+    .experience-card {
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+        background-color: #f7f7f7;
+        padding: 15px 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+        text-align: left;
+    }
+    
+
+    .experience-card h3 {
+        margin: 0 0 5px 0;
+        color: black;
+    }
+    
+    .experience-card p {
+        margin: 0 0 5px 0;
+        font-weight: 100;
+    }
+    
+    .exp-date {
+        font-size: 0.9rem;
+        color: #555;
+    }
+    
+    .experience-card ul {
+        margin: 5px 0 0 15px;
+    }
+
+
+
+
+    .ProjectsPage {
+      padding:80px 10%;
+      text-align: center;
+  }
+  
+  .project-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .project-tabs .tab {
+    padding: 8px 18px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column; /* 👈 key for education-style layout */
+    gap: 70px;
+    align-items: center; /* centers cards */
+  }
+  
+  
+  .project-card {
+    background-color: #ffffff;
+    padding: 22px 18px;
+    border-radius: 16px;
+    box-shadow:
+        0 4px 10px rgba(0, 0, 0, 0.08),
+        0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-align: center;
+    border: 2px solid black;
+  
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+  }
+  
+  
+  
+  
+  
+  .project-card h3 {
+      margin: 0 0 5px 0;
+      color: black;
+  }
+  
+  .project-card p {
+      margin: 0 0 10px 0;
+      font-weight: 500;
+  }
+  
+  .project-status {
+      font-size: 0.9rem;
+      color: #555;
+  }
+  
+    
+    
+
+
+
+
+
+
+
+
+
+  
+  } /* END OF PHONE MEDIA QUERY */
+  
+
+
+  /* ===========================================
+   DESKTOP HEADER VERSION (Option C)
+   Matches your mobile header design
+   =========================================== */
+
+/* Apply desktop layout when width >= 768px */
+@media (min-width: 768px) {
+
+  body {
+    background-color: #f0fbff;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  }
+
+  /* ================= HEADER ================= */
+
+ 
+
+  .mobile-menu-wrapper {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+      /*changing this from fixed to relatvie made the header and title not colldie*/
+      position: relative;
+      
+      top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #acdcee;
+    padding: 10px 40px;
+
+    border-radius: 25px;   /* smoother curve */
+    
+    width: max-content;    /* ONLY as wide as content */
+    max-width: 90vw;       /* never too large on small screens */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 1000;
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #acdcee;
+    min-width: 250px;
+  }
+
+  .username {
+    color: black;
+  }
+
+  .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+    width: 290px;
+    text-align: left;
+  }
+
+  .nav-menu a {
+    padding: 12px 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+  }
+
+  .nav-menu a.sub-item {
+    padding-left: 50px;
+    font-size: 0.95em;
+    color: #000;
+  }
+
+  .nav-menu a:hover {
+    background-color: #f0f0f0;
+    color: #4f8ef7;
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+
+  .navIcon{
+    display: inline-flex;
+    align-items: center;
+    gap: 6000px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+  }
+
+  .content{
+    padding: 16px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  nav ul{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    list-style-type: none;
+    margin-top: -12px;
+  }
+
+  nav ul li{
+    margin: 10px 0;
+    margin-left: 20px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .menu-button {
+    width: 30px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: transparent;
+  }
+
+  .menuButton {
+    background-color: #000;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+  }
+
+
+  /* ================= HERO / INTRO ================= */
+
+  #section1 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  #section1 h1 {
+    font-size: clamp(42px, 6vw, 64px);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+  .me1 {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  #typewriter {
+    font-size: 60px;
+  }
+
+ 
+
+  .profile-pic5{
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; 
+    margin: 0 auto;
+    margin-top: -100px;
+    border: 3px solid #acdcee;
+  }
+
+  .contactMe{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .linkedin-button {
+    background-color: #acdcee; 
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .linkedin-button:hover {
+    background-color: gray;
+  }
+
+  /* ================= ABOUT ME ================= */
+
+  #section0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  #section0 h1{
+    font-size: 30px;
+  }
+
+
+  .aboutMeComputer{
+      display: none;
+    }
+
+
+  .aboutMePhone {
+      padding: 20px; /* Reduce padding for smaller screens */
+      margin: 0 8px; /* Prevent text from touching edges */
+    
+    
+      text-align: justify;
+    
+      margin-top: -110px;
+    
+    
+    }
+    
+    .text1Phone{
+      display: block;
+      font-size: 15px; 
+      text-align: justify;
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      padding: 35px;
+      margin-top: 100px;
+    }
+    
+    .text1Phone p{
+    
+      margin-bottom: 1px; /* Slightly reduce space between paragraphs */
+    
+      text-align: justify !important;
+    
+    }
+
+
+  
+
+    .EducationPhone {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      padding: 30px 10%;
+      text-align: center;
+  }
+  
+  /* Container spacing */
+  .education-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+  }
+  
+  /* Card */
+  .education-card {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      background-color: #ffffff; /* cleaner than gray */
+      padding: 22px 12px;
+      border-radius: 16px; /* softer corners */
+      box-shadow:
+          0 4px 10px rgba(0, 0, 0, 0.08),
+          0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      text-align: center;
+      border: 2px solid black; /* visual accent */
+      max-width: 700px;
+      width: 100%;
+      margin:0 auto;
+     
+
+     
+  }
+  
+
+  
+  /* School name */
+  .education-card h3 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      margin: 0 0 6px 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #000;
+  }
+  
+  /* Degree / details */
+  .education-card p {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      margin: 0 0 6px 0;
+      font-size: 15px;
+      font-weight: 400; /* 100 is too light for readability */
+      color: #444;
+  }
+  
+  /* Date */
+  .edu-date {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+      font-size: 14px;
+      color: #777;
+      font-style: italic;
+  }
+  
+  
+  
+
+
+
+
+
+
+ 
+
+  .SkillsPhone {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+
+.skills-section {
+    margin-bottom: 50px; /* space between sections */
+}
+
+
+.skills-container {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* space between skills */
+    margin-top: 15px;
+}
+
+.skill {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+
+.skill:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+   
+
+
+  /* ================= EDUCATION ================= */
+
+ 
+  /* ================= SKILLS ================= */
+
+
+
+  /* ================= EXPERIENCE ================= */
+
+  .Experience {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+    padding: 80px 10%;
+      text-align: center;
+}
+
+.experience-cards {
+    
+    
+
+    display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+
+}
+
+.experience-card {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+    background-color: #ffffff; /* cleaner than gray */
+      padding: 22px 12px;
+      border-radius: 16px; /* softer corners */
+      box-shadow:
+          0 4px 10px rgba(0, 0, 0, 0.08),
+          0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      text-align: center;
+      border: 2px solid black; /* visual accent */
+      max-width: 700px;
+      width: 100%;
+      margin:0 auto;
+}
+
+
+.experience-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.experience-card p {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  font-weight: 400; /* 100 is too light for readability */
+  color: #444;
+}
+
+.exp-date {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.experience-card ul {
+    margin: 5px 0 0 15px;
+}
+
+  /* ================= PROJECTS ================= */
+
+  .ProjectsPage {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.project-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.project-tabs .tab {
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+
+.projects-container {
+  display: flex;
+  flex-direction: column; /* 👈 key for education-style layout */
+  gap: 70px;
+  align-items: center; /* centers cards */
+}
+
+
+.project-card {
+  background-color: #ffffff;
+  padding: 22px 18px;
+  border-radius: 16px;
+  box-shadow:
+      0 4px 10px rgba(0, 0, 0, 0.08),
+      0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: center;
+  border: 2px solid black;
+
+  max-width: 600px;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 290px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+}
+
+
+
+
+
+.project-card h3 {
+    margin: 0 0 5px 0;
+    color: black;
+}
+
+.project-card p {
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.project-status {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+
+}
