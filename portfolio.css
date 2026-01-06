@@ -1,6 +1,11 @@
 @media screen and (max-width: 767px){
 
+
+
+
+
     body{
+
       background-color:  #f0fbff;
       background-size: 100% auto;
       background-attachment: fixed;
@@ -10,36 +15,40 @@
       padding: 0;
       overflow-x: hidden;
       box-sizing: border-box;
-   
-     
+    
     }
 
-   
-  
-  
+
     .image1{
-      width: 300px;
-      height: 200px;
+
+        width: 300px;
+        height: 200px;
       overflow-x: hidden;
+
     }
   
     .startText h4{
-      text-align: center;
-      margin-top: 60px;
-      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-      margin-left: 90px;
-      margin-right: 90px;
-      font-weight: normal;
+
+        text-align: center;
+        margin-top: 60px;
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+        margin-left: 90px;
+        margin-right: 90px;
+        font-weight: normal;
+
     }
   
     .footer-contact2{
-      text-align: center;
-      margin-top: 30px;
+
+        text-align: center;
+        margin-top: 30px;
     }
   
     #typewriter{
-      font-size: 45px;
-      font-weight: 500;
+
+        font-size: 45px;
+        font-weight: 500;
+
     }
   
     .footer-contactStart{
@@ -49,75 +58,76 @@
     /* HEADER */
   
     .mobile-menu-wrapper {
-      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-      /*changing this from fixed to relatvie made the header and title not colldie*/
-      position: relative;
+
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+        /*changing this from fixed to relatvie made the header and title not colldie*/
+        position: relative;
       
-      top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
 
-    background: #acdcee;
-    padding: 10px 40px;
+        background: #acdcee;
+        padding: 10px 40px;
 
-    border-radius: 25px;   /* smoother curve */
+        border-radius: 25px;   /* smoother curve */
     
-    width: max-content;    /* ONLY as wide as content */
-    max-width: 90vw;       /* never too large on small screens */
+        width: max-content;    /* ONLY as wide as content */
+        max-width: 90vw;       /* never too large on small screens */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    z-index: 1000;
+        z-index: 1000;
     }
   
     .menu-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      color: #acdcee;
-      min-width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        color: #acdcee;
+        min-width: 250px;
     }
   
     .username {
-      color: black;
+        color: black;
     }
   
     .menu-icon {
-      font-size: 30px;
-      cursor: pointer;
-      color: black;
+        font-size: 30px;
+        cursor: pointer;
+        color: black;
     }
   
     .nav-menu {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      right: 20px;
-      background-color: #acdcee;
-      padding: 10px 0;
-      border-radius: 8px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-      z-index: 999;
-      width: 290px;
-      text-align: left;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #acdcee;
+        padding: 10px 0;
+        border-radius: 8px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        z-index: 999;
+        width: 290px;
+        text-align: left;
     }
   
     .nav-menu a {
-      padding: 12px 20px;
-      color: #000;
-      text-decoration: none;
-      display: block;
-      font-weight: 400;
+        padding: 12px 20px;
+        color: #000;
+        text-decoration: none;
+        display: block;
+        font-weight: 400;
     }
   
     .nav-menu a.sub-item {
-      padding-left: 50px;
-      font-size: 0.95em;
-      color: #000;
+        padding-left: 50px;
+        font-size: 0.95em;
+        color: #000;
     }
   
     .nav-menu a:hover {
@@ -261,6 +271,8 @@
     }
   
     .linkedin-button {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
       background-color: #acdcee; 
       color: black;
       padding: 10px 20px;
@@ -323,6 +335,8 @@
     
 
     .EducationPhone {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
         padding: 30px 10%;
         text-align: center;
     }
@@ -383,6 +397,8 @@
     /*skills section phone*/
 
     .SkillsPhone {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
         padding: 30px 60px;
         text-align: center;
     }
@@ -485,6 +501,8 @@
 
 
     .ProjectsPage {
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
       padding:80px 10%;
       text-align: center;
   }
@@ -1093,7 +1111,7 @@
   width: 90%;
   max-height: 290px;
 
-  object-fit: contain; 
+  object-fit: contain; /* 👈 KEY CHANGE */
   background-color: #f5f5f5; /* optional, looks clean */
 
   border-radius: 12px;
