@@ -1093,7 +1093,7 @@
   width: 90%;
   max-height: 290px;
 
-  object-fit: contain; /* 👈 KEY CHANGE */
+  object-fit: contain; 
   background-color: #f5f5f5; /* optional, looks clean */
 
   border-radius: 12px;
