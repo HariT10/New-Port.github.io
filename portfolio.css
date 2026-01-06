@@ -222,12 +222,21 @@
       height: 60vh;
       text-align: center;
       overflow-x: hidden;
+      
     }
   
     #section1 h1{
       font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
       font-size: 38px;
       margin-top: -10px;
+    }
+
+    #section1 p {
+
+        font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+        
     }
   
     .me1{
@@ -279,6 +288,8 @@
       text-decoration: none;
       border-radius: 8px;
       transition: background-color 0.3s ease;
+
+      margin-bottom: 100px;
     }
   
     .linkedin-button:hover {
